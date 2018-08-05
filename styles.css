@@ -1,0 +1,162 @@
+body {
+    margin: 0; padding: 0;
+}
+
+div.container {
+    background: linear-gradient(rgba(1, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.visitdenmark.se/sites/default/files/styles/gallery_medium_width/public/vdk_images/Campaigns/Market-specific/SE/Nordjylland/utzoncenter_1024x576.jpg?itok=OFqIT4NQ);
+ height: 100vh; width: 100vw; 
+ background-size: cover;
+ min-width: 100%; min-height: 100%; 
+}
+
+div.boxes {
+margin-top: 15%;
+flex-direction: row;
+}
+
+div.boxItems {
+    width: 23%; 
+    height: 10rem;
+}
+
+.line {
+    width: 10%; 
+    height: 0.2rem;
+}
+
+.pricing {
+    margin-left: 50%;
+}
+
+footer {
+position: absolute;
+}
+
+@media only screen and (min-width: 1025px) {
+    div.boxes {
+      margin-top: 13.5%; 
+    
+    }
+    
+    .pricing {
+        margin-left: 60%;
+    }
+    
+}
+
+
+
+@media all and (min-device-width : 812px) and (max-device-width : 824px) and (orientation: landscape) {
+    div.boxes {
+     margin-top: 5%; 
+    }
+}
+
+
+@media screen and (max-device-width : 767px) and (orientation: portrait) { 
+    div.boxes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    }
+
+    button {
+        width: 15%;
+        height: auto; 
+        margin-top: 1.5rem;  
+        margin-left: 2%; 
+    }
+
+    p {
+        font-size: 2rem; 
+    }
+
+    .mainText {
+        font-size: 5rem; 
+    }
+
+    .pricing {
+        margin-left: 20%; 
+    }
+
+
+    div.red {
+        margin-right: 2.5%;
+    }
+
+    div.boxItems {
+    margin-top: 2%; 
+    }
+
+    div.boxItems{
+        width: 60%; 
+        height: 25%;
+    }
+
+    div.line {
+        width: 27%; 
+        height: 0.3rem; 
+    }
+
+    footer {
+        position: absolute;
+        }
+
+}
+
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) and (orientation: portrait)  { 
+    .boxItems {
+        width: 50%; 
+        height: 20%;
+    }
+
+    div.boxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 2%; 
+        }
+        
+        button {
+            width: 15%;
+            height: auto; 
+            margin-top: 1.5rem;  
+            margin-left: 2%; 
+        }
+        
+        p {
+            font-size: 2rem; 
+        }
+        
+        .mainText {
+            font-size: 5rem; 
+        }
+        
+        .pricing {
+            margin-left: 20%; 
+        }
+        
+        
+        div.red {
+            margin-right: 2.5%;
+        }
+        
+        div.boxItems {
+        margin-top: 2%; 
+        }
+        
+        div.boxItems{
+            width: 60%; 
+            height: 25%;
+        }
+        
+        div.line {
+            width: 27%; 
+            height: 0.3rem; 
+        }
+        footer {
+            position: absolute;
+        }
+}

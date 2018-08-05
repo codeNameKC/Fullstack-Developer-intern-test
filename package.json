@@ -1,0 +1,13 @@
+{
+  "name": "no-more-test",
+  "version": "1.0.0",
+  "description": "A test-project for No-More Fullstack Developer internship",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "no-more-test"
+  },
+  "author": "Kacey Okafor",
+  "license": "ISC",
+  "devDependencies": {}
+}
